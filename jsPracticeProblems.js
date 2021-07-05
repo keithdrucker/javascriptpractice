@@ -1,94 +1,129 @@
 
 
-// question1
-function sum(num1, num2) {
-    return num1 + num2
-}
+// // question1
+// function sum(num1, num2) {
+//     return num1 + num2
+// }
 
-console.log(sum(4, 6))
-
-
-
-
-// question2
-function minToSec(min){
-    return min * 60
-}
-
-console.log(minToSec(3))
+// console.log(sum(4, 6))
 
 
 
 
-// question3
-function triArea(base, height){
-    return (base * height) / 2
-}
+// // question2
+// function minToSec(min){
+//     return min * 60
+// }
 
-console.log(triArea(7, 4))
-
-
-
-
-
-// question4
-function points(twoPoints, threePoints) {
-    return (twoPoints * 2) + (threePoints * 3)
-}
-
-console.log(points(38, 8))
+// console.log(minToSec(3))
 
 
 
 
-// question5
-function addUp(num1) {
-    let sum = 0
-    for(let i=1; i<=num1; i++){
-        sum += i
-    }
-    return sum
-}
+// // question3
+// function triArea(base, height){
+//     return (base * height) / 2
+// }
 
-console.log(addUp(600))
-
-
-
-// question6
-function timeForMilkAndCookies(keithsDate) {
-    if(keithsDate.getMonth() === 11 && keithsDate.getDate() === 24) {
-        return true
-    } else {
-        return false
-    }
-}
-
-const keithsDay = (new Date(1994, 09, 19))
-console.log(timeForMilkAndCookies(new Date(1994, 11, 24)))
+// console.log(triArea(7, 4))
 
 
 
 
-//question7
-function detectWord(crowd){
-    const chars = crowd.split("")
 
-    let word = ""
+// // question4
+// function points(twoPoints, threePoints) {
+//     return (twoPoints * 2) + (threePoints * 3)
+// }
 
-    for (let i=0; i<chars.length; i++){
-        if(checkIsLowerCase(chars[i])) {
-            word += chars[i]
-        }
-    }
+// console.log(points(38, 8))
 
-    return word
-}
-    function checkIsLowerCase(character){
-        if(character === character.toLowerCase()){
-            return true;
-        }   
-        return false;        
-    }
 
-console.log(detectWord("UcUNFYGaFYFYGtNUH"))
-checkIsLowerCase("C")
+
+
+// // question5
+// function addUp(num1) {
+//     let sum = 0
+//     for(let i=1; i<=num1; i++){
+//         sum += i
+//     }
+//     return sum
+// }
+
+// console.log(addUp(600))
+
+
+
+// // question6
+// function timeForMilkAndCookies(keithsDate) {
+//     if(keithsDate.getMonth() === 11 && keithsDate.getDate() === 24) {
+//         return true
+//     } else {
+//         return false
+//     }
+// }
+
+// const keithsDay = (new Date(1994, 09, 19))
+// console.log(timeForMilkAndCookies(new Date(1994, 11, 24)))
+
+
+
+
+// //question7
+// function detectWord(crowd){
+//     const chars = crowd.split("")
+
+//     let word = ""
+
+//     for (let i=0; i<chars.length; i++){
+//         if(checkIsLowerCase(chars[i])) {
+//             word += chars[i]
+//         }
+//     }
+
+//     return word
+// }
+//     function checkIsLowerCase(character){
+//         if(character === character.toLowerCase()){
+//             return true;
+//         }   
+//         return false;        
+//     }
+
+// console.log(detectWord("UcUNFYGaFYFYGtNUH"))
+// checkIsLowerCase("C")
+
+
+
+
+//question 8
+// const arrayList = [7, -3, 1, 2, 3, 4, 5]
+// function getFirstElement(array){
+//     return array[0]
+// }
+// console.log(getFirstElement(arrayList))
+
+
+
+//question 8 extended
+// function getFirstElement(array2){
+//     let lastValue = array2.length
+//     return array2[lastValue - 1]
+// }
+// console.log(getFirstElement(arrayList))
+
+
+
+
+//question 8 extended extended 
+// const arrayList = [7, -3, 1, 2, 3, 4, 5]
+// function getFirstValue(array3){
+//     let min = array2[0]
+//     for (let i=0; i<array3.length; i++) {
+//         if(array3[i] < min){
+//         min = array3[i]
+//         }
+//     }
+//     return min
+// }
+// console.log(getFirstValue(arrayList))
