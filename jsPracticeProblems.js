@@ -50,7 +50,7 @@
 //     return sum
 // }
 
-// console.log(addUp(600))
+// console.log(addUp(5))
 
 
 
@@ -127,3 +127,77 @@
 //     return min
 // }
 // console.log(getFirstValue(arrayList))
+
+
+
+//question 9
+// function calcAge(age){
+//     return age * 365
+// }
+// console.log(calcAge(20))
+
+
+
+//question 10
+// function circuitPower(num1, num2) {
+//     return num1 * num2
+// }
+// console.log(circuitPower(110, 3))
+
+
+
+//question 11
+// function giveMeSomething(anyString) {
+//     return "something" + " " + anyString
+// }
+// console.log(giveMeSomething("blah blah blah"))
+
+
+
+//question 12
+// function calculateFuel(num) {
+//     let fuel = num * 10
+
+//     if(fuel < 100){
+//         fuel = 100
+//     }
+//    return fuel
+// }
+
+// console.log(calculateFuel(5))
+
+
+//question 13
+// function animals(chickens, cows, pigs) {
+// 	return (chickens*2) + (cows*4) + (pigs*4)
+// }
+// console.log(animals(2, 3, 5))
+
+
+
+//question 14
+// function secretSociety(friends) {
+//     let sortedFriends = friends.sort()
+//     let result = ""
+
+//     for (let i=0; i<sortedFriends.length; i++){
+//         result += sortedFriends[i][0].toLowerCase()
+//     }
+//     return result
+// }
+
+// const friendsArray = ["Sarah", "Adam", "Malcolm"]
+// console.log(secretSociety(friendsArray))
+
+
+
+//question 15
+function matchHouses(step) {
+    if(step === 0) {
+        return 0
+    } else {
+        return (step * 6) - (step - 1)
+    }
+}
+
+console.log(matchHouses(87))
