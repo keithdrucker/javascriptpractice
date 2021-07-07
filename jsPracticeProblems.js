@@ -106,11 +106,12 @@
 
 
 //question 8 extended
-// function getFirstElement(array2){
+// const arrayList = [7, -3, 1, 2, 3, 4, 5]
+// function getLastElement(array2){
 //     let lastValue = array2.length
 //     return array2[lastValue - 1]
 // }
-// console.log(getFirstElement(arrayList))
+// console.log(getLastElement(arrayList))
 
 
 
@@ -118,7 +119,7 @@
 //question 8 extended extended 
 // const arrayList = [7, -3, 1, 2, 3, 4, 5]
 // function getFirstValue(array3){
-//     let min = array2[0]
+//     let min = array3[0]
 //     for (let i=0; i<array3.length; i++) {
 //         if(array3[i] < min){
 //         min = array3[i]
@@ -181,7 +182,7 @@
 //     let result = ""
 
 //     for (let i=0; i<sortedFriends.length; i++){
-//         result += sortedFriends[i][0].toLowerCase()
+//         result += sortedFriends[i][0].toUpperCase()
 //     }
 //     return result
 // }
@@ -192,12 +193,122 @@
 
 
 //question 15
-function matchHouses(step) {
-    if(step === 0) {
-        return 0
-    } else {
-        return (step * 6) - (step - 1)
-    }
-}
+// function matchHouses(step) {
+//     if(step === 0) {
+//         return 0
+//     } else {
+//         return (step * 6) - (step - 1)
+//     }
+// }
 
-console.log(matchHouses(87))
+// console.log(matchHouses(87))
+
+
+
+
+//question 16 /
+
+// function sumOfOddNums() {
+//     let result = 0
+//     for (let i=10; i<=30; i++){
+//         if (i % 2 != 0){
+//             result += i
+//         }
+//     }
+//     return result
+// }
+// console.log(sumOfOddNums())
+
+
+// function sumOfOddNums2(start, end, numArray){
+    
+//     let result = 0
+
+//     for(let i = 0; i<numArray.length; i++) {
+//         if((numArray[i] % 2 != 0 && numArray[i] < end) && numArray[i] > start) {
+//             result += numArray[i]
+//         }
+//     }
+//     return result
+// }
+// const newArray = [-5, 10, 21, 30, 49, 51]
+// console.log(sumOfOddNums2(1, 50, newArray))
+
+
+// //question 17 
+// function calculateSumNumber(num1, num2) {
+//     let result = 0
+
+//     for(let i=num1; i<=num2; i++) {
+//         result += i
+//     }
+//     return result
+// }
+
+// console.log(calculateSumNumber(1, 10))
+
+//question 18 
+// const arrayExample = [-10, 2, -3, 4, 5]
+
+// function sumOfNumbers(array4) {
+//     // let result = 0
+
+//     // for(let i=0; i<array4.length; i++) {
+//     //     result += array4[i]
+//     // }
+//     // return result
+
+//     return array4.reduce(function(acc, num){
+//         acc += num
+//         return acc
+//     }, 0)
+// }
+
+
+// console.log(sumOfNumbers(arrayExample))
+
+// //question 19 
+// const arrayExample = [-10, 2, -3, 4, 5]
+// function averageOfNumbers(array5) {
+//     let result = 0
+//     let averager = array5.length
+
+//     for(let i=0; i<array5.length; i++) {
+//         result += array5[i]
+//     }
+//     return result / averager
+// }
+
+// console.log(averageOfNumbers(arrayExample))
+
+// // question 20 
+// const arrayExample = [-10, 2, -3, 4, 5]
+// function posArrayNumbers(array6) {
+//     return array6.filter(function(item, index){
+//         return item > 0
+//     })
+
+// }
+
+// console.log(posArrayNumbers(arrayExample))
+// console.log(arrayExample)
+// console.log(filteredNumbers)
+
+//question 21 
+// function isPrimeNumber(number) {
+//     if(number === 2 || number % 2 != 0){
+//         return true
+//     }
+//     return false
+// }
+
+// console.log(isPrimeNumber(617))
+
+
+// //question 24 
+// function getNumberOfWords(anyString) {
+//     const words = anyString.split(" ")
+//          return words.length
+// }
+
+// console.log(getNumberOfWords("hello you got this"))
