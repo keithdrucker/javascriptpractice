@@ -292,7 +292,8 @@
 
 // console.log(posArrayNumbers(arrayExample))
 // console.log(arrayExample)
-// console.log(filteredNumbers)
+
+
 
 //question 21 
 // function isPrimeNumber(number) {
@@ -312,3 +313,38 @@
 // }
 
 // console.log(getNumberOfWords("hello you got this"))
+
+
+
+// //question 25
+// let keithsArray = [1, 2, 3, 4, 5]
+// function rotateLeft(exampleArray) {
+//     let firstElement = exampleArray[0]
+
+
+//     for (let i=1; i<exampleArray.length; i++) {
+//         exampleArray[i - 1] = exampleArray[i]
+//     }
+//         exampleArray[exampleArray.length - 1] = firstElement
+//     return exampleArray
+
+// }
+
+// console.log(rotateLeft(keithsArray))
+
+
+// //question 26
+// let keithsArray = [1, 2, 3, 4, 5]
+// function rotateRight(exampleArray2) {
+//     let lastElement = exampleArray2[exampleArray2.length - 1]
+
+//         for (let i=exampleArray2.length - 1; i>0; i--) {
+//             exampleArray2[i] = exampleArray2[i -1]
+//         }
+//         exampleArray2[0] = lastElement
+//         return exampleArray2
+// }
+//     console.log(rotateRight(keithsArray))
+
+//question 27
+
