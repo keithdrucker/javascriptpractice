@@ -72,7 +72,6 @@
 // //question7
 // function detectWord(crowd){
 //     const chars = crowd.split("")
-
 //     let word = ""
 
 //     for (let i=0; i<chars.length; i++){
@@ -91,7 +90,7 @@
 //     }
 
 // console.log(detectWord("UcUNFYGaFYFYGtNUH"))
-// checkIsLowerCase("C")
+
 
 
 
@@ -101,6 +100,7 @@
 // function getFirstElement(array){
 //     return array[0]
 // }
+
 // console.log(getFirstElement(arrayList))
 
 
@@ -109,8 +109,10 @@
 // const arrayList = [7, -3, 1, 2, 3, 4, 5]
 // function getLastElement(array2){
 //     let lastValue = array2.length
+
 //     return array2[lastValue - 1]
 // }
+
 // console.log(getLastElement(arrayList))
 
 
@@ -118,8 +120,9 @@
 
 //question 8 extended extended 
 // const arrayList = [7, -3, 1, 2, 3, 4, 5]
-// function getFirstValue(array3){
+// function getMinValue(array3){
 //     let min = array3[0]
+
 //     for (let i=0; i<array3.length; i++) {
 //         if(array3[i] < min){
 //         min = array3[i]
@@ -127,7 +130,8 @@
 //     }
 //     return min
 // }
-// console.log(getFirstValue(arrayList))
+
+// console.log(getMinValue(arrayList))
 
 
 
@@ -135,6 +139,7 @@
 // function calcAge(age){
 //     return age * 365
 // }
+
 // console.log(calcAge(20))
 
 
@@ -143,6 +148,7 @@
 // function circuitPower(num1, num2) {
 //     return num1 * num2
 // }
+
 // console.log(circuitPower(110, 3))
 
 
@@ -151,6 +157,7 @@
 // function giveMeSomething(anyString) {
 //     return "something" + " " + anyString
 // }
+
 // console.log(giveMeSomething("blah blah blah"))
 
 
@@ -172,6 +179,7 @@
 // function animals(chickens, cows, pigs) {
 // 	return (chickens*2) + (cows*4) + (pigs*4)
 // }
+
 // console.log(animals(2, 3, 5))
 
 
@@ -207,9 +215,9 @@
 
 
 //question 16 /
-
 // function sumOfOddNums() {
 //     let result = 0
+
 //     for (let i=10; i<=30; i++){
 //         if (i % 2 != 0){
 //             result += i
@@ -217,11 +225,13 @@
 //     }
 //     return result
 // }
+
 // console.log(sumOfOddNums())
 
 
-// function sumOfOddNums2(start, end, numArray){
-    
+
+
+// function sumOfOddNums2(start, end, numArray){   
 //     let result = 0
 
 //     for(let i = 0; i<numArray.length; i++) {
@@ -231,8 +241,11 @@
 //     }
 //     return result
 // }
+
 // const newArray = [-5, 10, 21, 30, 49, 51]
 // console.log(sumOfOddNums2(1, 50, newArray))
+
+
 
 
 // //question 17 
@@ -247,9 +260,11 @@
 
 // console.log(calculateSumNumber(1, 10))
 
+
+
+
 //question 18 
 // const arrayExample = [-10, 2, -3, 4, 5]
-
 // function sumOfNumbers(array4) {
 //     // let result = 0
 
@@ -267,6 +282,8 @@
 
 // console.log(sumOfNumbers(arrayExample))
 
+
+
 // //question 19 
 // const arrayExample = [-10, 2, -3, 4, 5]
 // function averageOfNumbers(array5) {
@@ -280,6 +297,8 @@
 // }
 
 // console.log(averageOfNumbers(arrayExample))
+
+
 
 // // question 20 
 // const arrayExample = [-10, 2, -3, 4, 5]
@@ -295,6 +314,7 @@
 
 
 
+
 //question 21 
 // function isPrimeNumber(number) {
 //     if(number === 2 || number % 2 != 0){
@@ -306,6 +326,8 @@
 // console.log(isPrimeNumber(617))
 
 
+
+
 // //question 24 
 // function getNumberOfWords(anyString) {
 //     const words = anyString.split(" ")
@@ -313,6 +335,7 @@
 // }
 
 // console.log(getNumberOfWords("hello you got this"))
+
 
 
 
@@ -333,6 +356,8 @@
 // console.log(rotateLeft(keithsArray))
 
 
+
+
 // //question 26
 // let keithsArray = [1, 2, 3, 4, 5]
 // function rotateRight(exampleArray2) {
@@ -346,5 +371,21 @@
 // }
 //     console.log(rotateRight(keithsArray))
 
+
+
+
 //question 27
+// const items = [1, 2, 3, 4, 5]
+// const filteredItems = items.filter(function(item, index){
+//     return item % 2 === 0
+// })
+
+// console.log(items)
+// console.log(filteredItems)
+
+// const newItems = items.map(function(item, index){
+//     return item + 1
+// })
+
+// console.log(newItems)
 
