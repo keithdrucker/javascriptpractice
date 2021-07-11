@@ -374,18 +374,76 @@
 
 
 
-//question 27
-// const items = [1, 2, 3, 4, 5]
-// const filteredItems = items.filter(function(item, index){
-//     return item % 2 === 0
-// })
 
-// console.log(items)
-// console.log(filteredItems)
+// //question 27
+// function removedFirst3(anyString) {
 
-// const newItems = items.map(function(item, index){
-//     return item + 1
-// })
+//     let word = anyString.split("").filter(function(item){
+//         return !["a", "b", "c"].includes(item)
+//     }).join("")
 
-// console.log(newItems)
+//     return word
+// }
+// console.log(removedFirst3("bkakjncjkndajknbhlclnblna"))
+
+
+
+// //question 28
+// function uniqueInOrder(anyting){
+//     let newArray = [anyting[0]]
+
+//     for(let i=1; i<anyting.length; i++) {
+//         if (anyting[i] !== anyting[i-1]){
+//             newArray.push(anyting[i])
+//         }
+
+//     }
+//     return newArray
+
+// }
+
+// console.log(uniqueInOrder("AAAABBBCCDDA"))
+
+
+// //question 29
+// function friendsOnly(names) {
+//     let newArray = []
+
+//     for (let i=0; i<names.length; i++) {
+//              if (names[i].length < 5){
+
+//             newArray.push(names[i])
+//         }
+        
+//     }   
+//     return newArray
+        
+// }
+
+// console.log(friendsOnly(["keith", "joe", "john"]))
+
+
+// //question 30
+function xo(xsos) {
+    let acceptable = xsos.toLowerCase()
+    let x = 0
+    let o = 0
+
+    for(let i=0; i<xsos.length; i++) {
+        if(xsos[i] === "x") {
+            x += 1
+        } 
+        if(xsos[i] === "o") {
+            o += 1
+        }
+    }
+
+    if (x === o) {
+        return true
+    }
+    return false
+
+ }
+
+console.log(xo("xoxox"))
 
