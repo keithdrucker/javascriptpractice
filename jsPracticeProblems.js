@@ -424,26 +424,41 @@
 
 
 // //question 30
-function xo(xsos) {
-    let acceptable = xsos.toLowerCase()
-    let x = 0
-    let o = 0
+// function xo(xsos) {
+//     let acceptable = xsos.toLowerCase()
+//     let x = 0
+//     let o = 0
 
-    for(let i=0; i<xsos.length; i++) {
-        if(xsos[i] === "x") {
-            x += 1
-        } 
-        if(xsos[i] === "o") {
-            o += 1
-        }
-    }
+//     for(let i=0; i<xsos.length; i++) {
+//         if(xsos[i] === "x") {
+//             x += 1
+//         } 
+//         if(xsos[i] === "o") {
+//             o += 1
+//         }
+//     }
 
-    if (x === o) {
-        return true
-    }
-    return false
+//     if (x === o) {
+//         return true
+//     }
+//     return false
 
- }
+//  }
 
-console.log(xo("xoxox"))
+// console.log(xo("xoxox"))
 
+
+// //question 31
+// function reverseNumbers(anyNum) {
+//     let newOrder = [anyNum].join("")
+//     let result = []
+
+//     for(let i=newOrder.length -1; i>=0; i--){
+//             result += newOrder[i]
+            
+//     }    
+   
+//     return Number.parseInt(result)
+     
+// }
+// console.log(reverseNumbers(2345))
